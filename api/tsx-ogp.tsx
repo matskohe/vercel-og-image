@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 const Style = () => <style dangerouslySetInnerHTML={{ __html: `
-    @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
     body {
         margin: 0;
@@ -17,8 +17,8 @@ const Style = () => <style dangerouslySetInnerHTML={{ __html: `
         align-items: center;
     }
 
-    .langar {
-        font-family: 'Langar';
+    .inter {
+        font-family: 'Inter';
         font-size: 64px;
     }
 ` }} />
@@ -29,7 +29,7 @@ export default ({ query }: { query: { [key: string]: string } }) => <html>
     </head>
     <body>
         <div className="wrapper">
-            <div className="langar">{ query['title'] ? decodeURIComponent(query['title']) : 'Hello' }</div>
+            <div className="inter">{ query['title'] ? decodeURIComponent(query['title']) : 'Hello' }</div>
             <div>generated from tsx</div>
         </div>
     </body>

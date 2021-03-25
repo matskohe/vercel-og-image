@@ -3,7 +3,7 @@ module.exports.default = ({ query }) => `
 <html>
     <head>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
             body {
                 margin: 0;
@@ -19,15 +19,15 @@ module.exports.default = ({ query }) => `
                 align-items: center;
             }
 
-            .langar {
-                font-family: 'Langar';
+            .inter {
+                font-family: 'Inter';
                 font-size: 64px;
             }
         </style>
     </head>
     <body>
         <div class="wrapper">
-            <div class="langar">${ query['title'] ? decodeURIComponent(query['title']) : 'Hello' }</div>
+            <div class="inter">${ query['title'] ? decodeURIComponent(query['title']) : 'Hello' }</div>
             <div>generated from js</div>
         </div>
     </body>
