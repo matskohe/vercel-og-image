@@ -5,13 +5,10 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-        .body {
-            margin: 0;
-            padding: 0;
-        }
+
 
         .wrapper {
-            position: absolute;
+            position: relative;
             width: 1200px;
             height: 630px;
 
@@ -26,6 +23,10 @@
             height: 630px;
             left: calc(50% - 1200px / 2);
             top: calc(50% - 630px / 2);
+
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+                #059669;
+            mix-blend-mode: normal;
         }
 
         .rect2 {
@@ -38,7 +39,7 @@
             background: #f9fafb;
         }
 
-        .rect1 {
+        /* .rect1 {
             position: absolute;
             width: 320px;
             height: 44px;
@@ -46,7 +47,7 @@
             top: calc(50% - 44px / 2 - 248px);
 
             background: #6ee7b7;
-        }
+        } */
 
         .sitename {
             position: absolute;
@@ -68,24 +69,6 @@
             color: #ecfdf5;
         }
 
-        .twitgit {
-            position: absolute;
-            width: 270px;
-            height: 64px;
-            left: 760px;
-            top: 449px;
-
-            font-family: Inter;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 48px;
-            line-height: 58px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-        }
 
         .blogtitle {
             position: absolute;
@@ -97,6 +80,25 @@
             font-family: Inter;
             font-style: normal;
             font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #000000;
+        }
+
+        .twitgit {
+            position: absolute;
+            width: 270px;
+            height: 64px;
+            left: 760px;
+            top: 449px;
+
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
             font-size: 48px;
             line-height: 58px;
             display: flex;

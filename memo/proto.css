@@ -15,7 +15,8 @@ height: 630px;
 left: calc(50% - 1200px/2);
 top: calc(50% - 630px/2);
 
-background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #059669;
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+#059669;
 mix-blend-mode: normal;
 
 
