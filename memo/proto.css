@@ -30,17 +30,6 @@ top: 0px;
 background: #F9FAFB;
 
 
-/* Rectangle 1 */
-
-position: absolute;
-width: 320px;
-height: 44px;
-left: calc(50% - 320px/2);
-top: calc(50% - 44px/2 - 248px);
-
-background: #6EE7B7;
-
-
 /* matsudakohei.com */
 
 position: absolute;
@@ -58,28 +47,10 @@ display: flex;
 align-items: center;
 text-align: center;
 
+background: #6EE7B7;
 color: #ECFDF5;
 
 
-
-/* @matskohe */
-
-position: absolute;
-width: 270px;
-height: 64px;
-left: 760px;
-top: 449px;
-
-font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 58px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
 
 
 
@@ -103,45 +74,21 @@ text-align: center;
 color: #000000;
 
 
-
-/* Group 1 */
-
-position: absolute;
-width: 320px;
-height: 44px;
-left: 440px;
-top: 45px;
-
-
-
-/* Rectangle 1 */
+/* @matskohe */
 
 position: absolute;
-width: 320px;
-height: 44px;
-left: calc(50% - 320px/2);
-top: calc(50% - 44px/2 - 248px);
-
-background: #6EE7B7;
-
-
-/* matsudakohei.com */
-
-position: absolute;
-width: 320px;
-height: 44px;
-left: calc(50% - 320px/2);
-top: calc(50% - 44px/2 - 248px);
+width: 270px;
+height: 64px;
+left: 760px;
+top: 449px;
 
 font-family: Inter;
 font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 39px;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
 display: flex;
 align-items: center;
 text-align: center;
-background: #6EE7B7;
-color: #ECFDF5;
 
-
+color: #000000;

@@ -6,6 +6,7 @@ module.exports.default = ({ query }) => `
             @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
             body {
+                position: absolute
                 margin: 0;
                 padding: 0;
             }
