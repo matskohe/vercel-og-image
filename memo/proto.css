@@ -1,0 +1,147 @@
+/* Facebook post - 1 */
+
+position: relative;
+width: 1200px;
+height: 630px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1200px;
+height: 630px;
+left: calc(50% - 1200px/2);
+top: calc(50% - 630px/2);
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #059669;
+mix-blend-mode: normal;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 1000px;
+height: 560px;
+left: 100px;
+top: 0px;
+
+background: #F9FAFB;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 320px;
+height: 44px;
+left: calc(50% - 320px/2);
+top: calc(50% - 44px/2 - 248px);
+
+background: #6EE7B7;
+
+
+/* matsudakohei.com */
+
+position: absolute;
+width: 320px;
+height: 44px;
+left: calc(50% - 320px/2);
+top: calc(50% - 44px/2 - 248px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ECFDF5;
+
+
+
+/* @matskohe */
+
+position: absolute;
+width: 270px;
+height: 64px;
+left: 760px;
+top: 449px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* JAMstack(Next.js, Prismic, Vercel) でブログ兼ポートフォリオサイト */
+
+position: absolute;
+width: 900px;
+height: 200px;
+left: 150px;
+top: 169px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 320px;
+height: 44px;
+left: 440px;
+top: 45px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 320px;
+height: 44px;
+left: calc(50% - 320px/2);
+top: calc(50% - 44px/2 - 248px);
+
+background: #6EE7B7;
+
+
+/* matsudakohei.com */
+
+position: absolute;
+width: 320px;
+height: 44px;
+left: calc(50% - 320px/2);
+top: calc(50% - 44px/2 - 248px);
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+background: #6EE7B7;
+color: #ECFDF5;
+
+
