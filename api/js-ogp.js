@@ -3,33 +3,129 @@ module.exports.default = ({ query }) => `
 <html>
     <head>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-            body {
-                margin: 0;
-                padding: 0;
-            }
+        .wrapper {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            /* width: 1200px;
+            height: 630px;
+            background: #FFFFFF; */
 
-            .wrapper {
-                display: flex;
-                flex-direction: column;
-                width: 100%;
-                height: 100vh;
-                justify-content: center;
-                align-items: center;
-            }
 
-            .inter {
-                font-family: 'Inter';
-                font-size: 64px;
-            }
+        }
+
+        .rect3 {
+            position: absolute;
+            width: 1200px;
+            height: 630px;
+            left: calc(50% - 1200px / 2);
+            top: calc(50% - 630px / 2);
+
+            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+                #059669;
+            mix-blend-mode: normal;
+        }
+
+        .rect2 {
+            position: absolute;
+            width: 1000px;
+            height: 560px;
+            left: 100px;
+            top: 0px;
+
+            background: #f9fafb;
+        }
+
+        /* .rect1 {
+            position: absolute;
+            width: 320px;
+            height: 44px;
+            left: calc(50% - 320px / 2);
+            top: calc(50% - 44px / 2 - 248px);
+
+            background: #6ee7b7;
+        } */
+
+        .sitename {
+            position: absolute;
+            width: 320px;
+            height: 44px;
+            left: calc(50% - 320px / 2);
+            top: calc(50% - 44px / 2 - 248px);
+
+            font-family: 'Noto Sans JP', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            background: #6EE7B7;
+            color: #ecfdf5;
+        }
+
+
+        .blogtitle {
+            position: absolute;
+            width: 900px;
+            height: 200px;
+            left: 150px;
+            top: 169px;
+
+            font-family: 'Noto Sans JP', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #111827;
+        }
+
+        .twitgit {
+            position: absolute;
+            width: 270px;
+            height: 64px;
+            left: 760px;
+            top: 449px;
+
+            font-family: 'Noto Sans JP', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 58px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #111827;
+        }
+    
         </style>
     </head>
     <body>
-        <div class="wrapper">
-            <div class="inter">${ query['title'] ? decodeURIComponent(query['title']) : 'Hello' }</div>
-            <div>generated from js</div>
+    <div class="wrapper">
+        <div class="rect3">
+            <div class="rect2">
+                <div class="rect1">
+                    <div class="sitename">matsudakohei.com</div>
+                    <div class="blogtitle">
+                        JAMstack(Next.js, Prismic, Vercel) でブログ兼ポートフォリオサイト
+                    </div>
+                    <div class="twitgit">@matskohe</div>
+                </div>
+            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
-`
+`;
