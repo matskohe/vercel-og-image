@@ -1,133 +1,31 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-<head>
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+            .body {
+                margin: 0;
+                padding: 0;
+            }
 
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-        }
+            .wrapper {
+                display: flex;
+                width: 100%;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+            }
 
-        .wrapper {
-            position: relative;
-            width: 1200px;
-            height: 630px;
-
-        }
-
-
-        .rect3 {
-            position: absolute;
-            width: 1200px;
-            height: 630px;
-            left: calc(50% - 1200px / 2);
-            top: calc(50% - 630px / 2);
-
-            background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
-                #059669;
-            mix-blend-mode: normal;
-        }
-
-        .rect2 {
-            position: absolute;
-            width: 1000px;
-            height: 560px;
-            left: 100px;
-            top: 0px;
-
-            background: #f9fafb;
-        }
-
-        .rect1 {
-            position: absolute;
-            width: 320px;
-            height: 44px;
-            left: calc(50% - 320px / 2);
-            top: calc(50% - 44px / 2 - 248px);
-
-            background: #6ee7b7;
-        }
-
-        .sitename {
-            position: absolute;
-            width: 320px;
-            height: 44px;
-            left: calc(50% - 320px / 2);
-            top: calc(50% - 44px / 2 - 248px);
-
-            font-family: 'Noto Sans JP', sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 32px;
-            line-height: 39px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            background: #6EE7B7;
-            color: #ecfdf5;
-        }
-
-
-        .blogtitle {
-            position: absolute;
-            width: 900px;
-            height: 200px;
-            left: 150px;
-            top: 169px;
-
-            font-family: 'Noto Sans JP', sans-serif;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 58px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #111827;
-        }
-
-        .twitgit {
-            position: absolute;
-            width: 270px;
-            height: 64px;
-            left: 760px;
-            top: 449px;
-
-            font-family: 'Noto Sans JP', sans-serif;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 48px;
-            line-height: 58px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #111827;
-        }
-
-        
-    </style>
-</head>
-
-<body>
-    <div class="wrapper">
-        <div class="rect3">
-            <div class="rect2">
-                <div class="rect1">
-                    <p class="sitename">matsudakohei.com</p>
-                    <p class="blogtitle">
-                        JAMstack(Next.js, Prismic, Vercel) でブログ兼ポートフォリオサイト
-                    </p>
-                    <p class="twitgit">@matskohe</p>
-                </div>
-            </div>
+            .langar {
+                font-family: 'Langar';
+                font-size: 64px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="langar">Hello!!</div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
