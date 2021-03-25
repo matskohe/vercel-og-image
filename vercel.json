@@ -1,12 +1,8 @@
 {
     "version": 2,
     "functions": {
-        "api/**/*.html": {
-            "runtime": "vercel-dev-runtime@0.0.2",
-            "memory": 1024
-        },
-        "api/**/*.js": {
-            "runtime": "vercel-dev-runtime@0.0.2",
+        "api/**/*.(html|js)": {
+            "runtime": "@matskohe/vercel-og-image@1.5.0",
             "memory": 1024
         }
     }
